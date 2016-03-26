@@ -22,6 +22,12 @@ server.listen(port, function () {
 });
 ```
 
+Terminal ekranından projenin klasörüne gidip
+```sh
+node app.js
+```
+komutu ile projeyi çalıştırabilirsiniz.
+
 ### Mantık
 Uygulamamızın varsayılan modüllerden biri olan http'yi dahil edip createServer methodu ile sunucumuzu oluşturuyoruz. Bunun ardından portumuzu dinlemeye alıyoruz ve gelen isteklere cevap olarak "Merhaba Dunya" yazısını döndürüyoruz. Express yada FS gibi modüller ile bu sunucu daha da geliştirilebilir. 
 
